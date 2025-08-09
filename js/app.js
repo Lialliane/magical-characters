@@ -24,7 +24,7 @@ function renderList() {
                 `<div class="chara-box">
                     <div class="character">
                         <figure>
-                            <img src="${character_data[i].image == ""? "../src/not-found.jpg" : character_data[i].image}" alt="${character_data[i].name}">
+                            <img src="${character_data[i].image == ""? "./src/not-found.jpg" : character_data[i].image}" alt="${character_data[i].name}">
                         </figure>
                         <div class="character-info">
                             <h3>${character_data[i].name}</h3>
