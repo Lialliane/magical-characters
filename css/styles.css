@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'harry_pregular';
+  font-style: normal;
+  font-weight: normal;
+  src: local(''),
+    url('../src/harryp.ttf') format('.ttf'),
+    url('../src/harryp.woff2') format('woff2'),
+    url('../src/harryp.woff') format('woff');
+}
+body{
+    font-family: "harry_pregular";
+    background: url(../src/dining_hall_background.jpg);
+    background-size: cover;
+}
+ul, body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background: #000000e3;
+}
+nav
+{
+    width: 100vw;
+    background: url(../src/frame1.png) center;
+    background-size: 21%;
+    background-position-y: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#logo img{
+    height: auto;
+    width: 20%;
+}
+main{
+    margin-top: 4%;
+}
+.select-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    color: beige;
+    font-size: 29px;
+}
+select{
+    border: #000000 double 4px;
+    background: beige;
+    padding: 4px 10%;
+    font-size: 24px;
+    font-family: "harry_pregular", sans-serif;
+    margin-top: 1%;
+    text-align-last: center;
+}
+.container{
+    display: flex;
+    margin: 3% 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 97vw;
+}
+h2{
+    color: #ffb975;
+}
+.chara-box
+{
+    flex: 0 0 auto;
+    width: 17.5%;
+    max-width: 100%;
+    padding: 2% 0.5%;
+}
+
+.character{
+    position: relative;
+    padding: 5% 15%;
+    background: linear-gradient(0deg, black, #302b23);
+    border-radius: 44%;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.3s ease-out, margin 0.3s ease-out;
+    border: solid 4px #745b43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+
+.character:hover {
+  box-shadow: 0px 5px 13px rgb(183 127 64 / 43%);
+}
+figure {
+    margin: 0 0 1rem;
+	text-align: center;
+    width: fit-content;
+}
+
+figure img {
+    max-height: 210px;
+	vertical-align: middle;
+    border-radius: 46%;
+    height: 185px;
+}
+.character-info{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+.character h3{
+    font-size: 23px;
+    color: #dfd3c7;
+    margin: 1% auto 2%;
+}
+
+.character span{
+    color: #b88c61;
+    font-size: 17px;
+}
+
+footer{
+    text-align: center;
+    font-size: 23px;
+    color: beige;
+    padding: 1.5% 0%;
+    border-top: #745b43 7px double;
+}
+
+
